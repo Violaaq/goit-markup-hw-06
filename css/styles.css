@@ -467,6 +467,40 @@ img {
   display: flex;
   align-items: flex-start;
 }
+.footer-button-div {
+  display: block;
+}
+
+.button-label {
+  display: flex;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--color-button-active);
+  margin: 24px;
+  gap: 24px;
+}
+
+.subscribe-button {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--color-button);
+  border-radius: 4px;
+  color: var(--color-button-active);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  text-align: center;
+}
 
 /*Portfolio*/
 
