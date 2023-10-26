@@ -749,9 +749,19 @@ img {
   justify-content: center;
   align-items: center;
 }
+.form-icon {position: absolute;
+left: 16px;
+top: 50%;
+transform: translateY(-50%);
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-icon:focus {fill: #4D5AE5;}
+
 .label-form {
   margin-bottom: 8px;
 }
+.label-form-area {margin-bottom: 16px;}
 
 .label-tittle {
   color: #8e8f99;
@@ -798,12 +808,21 @@ img {
 }
 
 .textarea {
-  width: 360px;
+  width: 100%;
   height: 120px;
-  flex-shrink: 0;
+  font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  background-color: transparent;
+padding: 8px 16px;
+outline: transparent; 
+resize: none;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.textarea:focus {border-color: #4D5AE5;}
 
 .privacy-paragraph {
   color: var(--LIGHT-SLATE, #8e8f99);
