@@ -507,7 +507,7 @@ img {
   color: #ffffff;
 }
 
-::placeholder {
+::placeholder .input {
   color: #ffffff;
 }
 
@@ -795,15 +795,8 @@ img {
   margin-bottom: 4px;
 }
 
-::placeholder label-tittle {
+::placeholder .label-tittle {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  /* Small Text */
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.48px;
 }
 .input-icon {
   position: relative;
@@ -852,6 +845,16 @@ img {
 }
 .textarea:focus {
   border-color: #4d5ae5;
+}
+::placeholder .textarea {
+  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
 }
 
 .privacy-item {
