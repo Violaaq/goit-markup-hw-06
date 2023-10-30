@@ -825,6 +825,10 @@ img {
   border: 1px solid #4d5ae5;
 }
 
+.input-form:active .form-icon {
+  fill: #4d5ae5;
+}
+
 .input-privacy:checked + .privacy-chbx span {
   background-color: #404bbf;
   border: none;
@@ -861,9 +865,20 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  height: 16px;
-  width: 16px;
   margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+.privacy-link {
+  color: #4d5ae5;
+  /* Link Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-decoration-line: underline;
 }
 
 .privacy-paragraph {
