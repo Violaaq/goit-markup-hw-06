@@ -821,8 +821,7 @@ height: 16px;}
 
 .input-privacy:checked + .privacy-chbx span { background-color: #404bbf;
   border: none;
-  fiil:#F4F4FD;
-  ;}
+  fill:#F4F4FD;}
 
 .textarea {
   width: 100%;
