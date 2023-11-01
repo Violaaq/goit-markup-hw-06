@@ -580,8 +580,6 @@ img {
   color: var(--color-button-active);
   background-color: var(--color-button-on);
   border: 1px solid transparent;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .project-second {
@@ -801,6 +799,9 @@ img {
 .input-icon {
   position: relative;
 }
+.input-icon:focus-within {
+  fill: #4d5ae5;
+}
 
 .input-form {
   width: 100%;
@@ -816,10 +817,6 @@ img {
 .input-form:active,
 .input-form:focus {
   border: 1px solid #4d5ae5;
-}
-
-.input-form:active .form-icon {
-  fill: #4d5ae5;
 }
 
 .input-privacy:checked + .privacy-chbx span {
@@ -907,7 +904,6 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  text-decoration-line: underline;
 }
 
 .send-button {
